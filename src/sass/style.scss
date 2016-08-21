@@ -1,2 +1,19 @@
-body {
+a {
+    color:red;
+}
+.nxs-nav {
+    display:flex;
+    align-items:center;
+    list-style-type:none;
+    height:50px;
+}
+.nxs-button {
+    display:flex;
+    flex-grow:1;
+    height:100%;
+    align-items:center;
+}
+.nxs-button span {
+    margin:0 auto;
+    font-size:24px;
 }
